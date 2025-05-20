@@ -1,0 +1,21 @@
+{
+  "name": "c.-landing-one-page-startup-e-commerce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "prod": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.3",
+    "preline": "^3.0.1",
+    "tailwindcss": "^4.1.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10"
+  }
+}
